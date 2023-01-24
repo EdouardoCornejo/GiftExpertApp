@@ -1,11 +1,17 @@
-import {FC} from 'react'
-interface GiftExpertAppProps {
-    
-}
- 
+import { FC } from "react";
+interface GiftExpertAppProps {}
+
 export const GiftExpertApp: FC<GiftExpertAppProps> = () => {
-    return ( 
+  return (
     <>
-    <h1>GiftExpertApp</h1>
-    </> );
-}
+        {/* Title */}
+      <h1>GiftExpertApp</h1>
+
+        {/* Input */}
+
+
+        {/* Item List */}
+            {/* Gift Item */}
+    </>
+  );
+};
